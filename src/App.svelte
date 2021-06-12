@@ -1,9 +1,37 @@
 <script>
+	import Title from './components/Title.svelte';
+	import LeftContentBox from './components/LeftContentBox.svelte';
+	import RightContentBox from './components/RightContentBox.svelte';
+	import BottomInfo from './components/bottombar/BottomInfo.svelte';
 	export let title;
 </script>
 
+<link rel="stylesheet" href="node_modules/svelte-material-ui/bare.css" />
 <main>
-	<h1>{title}</h1>
+	<Title />
+
+	<LeftContentBox
+		src="./images/kuva1-oksa.png" 
+		title="Sydämmellisesti tervetuloa hääsivustollemme!" 
+		description="Tällä sivulla voi ilmoittaa tulostasi tai mahdollisesta esteestä ja lukea ajantasaista infoa häistä." 
+	/>
+	<RightContentBox
+		src="./images/kuva9-lintu.jpg" 
+		title="Muistathan ilmoittautua 31.8.2021 mennessä" 
+		description="Ilmoitathan tulostasi tai mahdollisesta esteestä- Ilmoittautumislomake sis. tiedon allergioista ja erityisruokavalioista." 
+		button="Ilmoittaudu tästä"
+	/>
+
+	<LeftContentBox
+		src="./images/kuva10-talo.jpg" 
+		title="Päivittyvää lisätietoa" 
+		description="Lue lisätietoa, jota hääkutsusta ei löytynyt! Tällä sivulla päivittyvää tietoa kuten ohjeita parkkeeraamiseen ja ohjelmanumeron varaamiseen." 
+		button="Lisätietoa"
+	/>
+
+
+	<BottomInfo />
+	<!--
 
 	<p>***</p>
 	<p>Hääpäivä: 18.9.2021, vihkitilaisuus klo 13:30, pääjuhla 15:00 - 00:30</p>
@@ -21,6 +49,7 @@
 	<b>Yhteyshenkilöt</b>
 	<p>Joel: 050-4522882</p>
 	<p>Anni: 040-8497736</p>
+	-->
 </main>
 
 <style type="text/scss">

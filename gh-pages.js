@@ -6,8 +6,7 @@ ghpages.publish(
         branch: 'gh-pages',
         repo: 'https://github.com/Jonux/wedding.git',  
         user: {
-            name: 'Joel Huttunen',
-            email: 'joel-github@md5.fi'
+            name: 'Jonux'
        }
     },
     () => {

@@ -10,6 +10,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "gh-pages": "^3.2.0",
     "node-sass": "^6.0.0",
     "rollup": "^2.50.5",
     "rollup-plugin-css-only": "^3.1.0",
@@ -21,6 +22,7 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0",
-    "strip-ansi": "^7.0.0"
+    "strip-ansi": "^7.0.0",
+    "svelte-material-ui": "^4.2.0"
   }
 }
