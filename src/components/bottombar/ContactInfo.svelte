@@ -15,7 +15,7 @@
   @import './variables';
 
     .container {    
-        background: #bababa;
+        background: $darkBackgroundColor;
         padding-bottom: 100px;
         padding-top: 40px;
         margin-bottom: 0;

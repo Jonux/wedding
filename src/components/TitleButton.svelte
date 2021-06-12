@@ -7,6 +7,7 @@
         color: black;
         width: 100px;
 
+        font-family: 'Candara Bold';
         padding-top: 20px;
         padding-bottom: 20px;
         font-variant: all-petite-caps;

@@ -14,7 +14,7 @@
   @import './variables';
 
     .menu-row {
-        background: #ababad;
+        background: $darkBackgroundColor;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -24,4 +24,11 @@
         height: 300px;
         margin-bottom: 30px;
     }
+
+    @media (max-width: 600px) {
+        .top-image {
+            height: 250px;
+            margin-bottom: 30px;
+        }
+	}
 </style>

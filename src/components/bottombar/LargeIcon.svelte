@@ -16,4 +16,10 @@
     .description {
 
     }
+    @media (max-width: 640px) {
+        .image {
+            height: 50px;
+            margin-bottom: 20px;
+        }
+	}
 </style>
