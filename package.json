@@ -23,6 +23,7 @@
   "dependencies": {
     "sirv-cli": "^1.0.0",
     "strip-ansi": "^7.0.0",
-    "svelte-material-ui": "^4.2.0"
+    "svelte-material-ui": "^4.2.0",
+    "svelte-routing": "^1.6.0"
   }
 }

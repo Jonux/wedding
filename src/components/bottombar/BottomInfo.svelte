@@ -49,7 +49,7 @@
         margin-bottom: 30px;
     }
     .text-container {
-        margin-left: 16px;
+        margin-left: 36px;
         display: flex;
     }
     .styled-text {

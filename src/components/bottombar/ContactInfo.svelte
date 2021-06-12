@@ -19,6 +19,7 @@
         padding-bottom: 100px;
         padding-top: 40px;
         margin-bottom: 0;
+        text-align: center;
     }
 
     p {

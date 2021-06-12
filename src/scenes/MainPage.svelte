@@ -1,15 +1,12 @@
 <script>
+    import BasePage from './BasePage.svelte';
 	import Title from '../components/Title.svelte';
 	import LeftContentBox from '../components/LeftContentBox.svelte';
 	import RightContentBox from '../components/RightContentBox.svelte';
 	import BottomInfo from '../components/bottombar/BottomInfo.svelte';
 </script>
 
-<link rel="stylesheet" href="node_modules/svelte-material-ui/bare.css" />
-<main>
-	<Title />
-
-	<div class="container">
+<BasePage>
 		<LeftContentBox
 			src="./images/kuva1-oksa.png" 
 			title="Sydämmellisesti tervetuloa hääsivustollemme!"  
@@ -67,40 +64,4 @@
 				<p>Joel Huttunen tai Anni Laitinen</p>
 			</div>
 		</RightContentBox>
-	</div>
-	<BottomInfo />
-</main>
-
-<style type="text/scss">
-  @import './variables';
-
-	$color: black;
-
-	.base-info {
-		text-align: left;
-	}
-
-	main {
-		text-align: center;
-		max-width: 900px;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: 900px;
-		}
-	}
-
-	body {
-		padding: 0;
-		margin: 0;
-	}
-
-	p {
-		text-align: left;
-	}
-
-	.container {
-		padding: 1em;
-	}
-</style>
+</BasePage>
