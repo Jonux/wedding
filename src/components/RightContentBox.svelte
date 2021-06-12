@@ -2,7 +2,7 @@
 <div class="container">
     <div class="text-area"> 
         <h2>{$$props.title}</h2>
-        <p>{$$props.description}</p>
+        <slot></slot>
     </div>
     <div class="image-container">
         <img src={$$props.src} alt="image" class="image" />
@@ -21,6 +21,7 @@
     }
 
     .text-area {
+        text-align: left;
         padding: 20px;
         width: 50%;
     }

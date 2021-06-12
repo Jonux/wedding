@@ -5,7 +5,7 @@
     </div>
     <div class="text-area"> 
         <h2>{$$props.title}</h2>
-        <p>{$$props.description}</p>
+        <slot></slot>
     </div>
 </div>
 
@@ -21,6 +21,7 @@
     }
 
     .text-area {
+        text-align: left;
         padding: 20px;
     }
 

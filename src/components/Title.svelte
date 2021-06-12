@@ -7,7 +7,6 @@
 <div class="menu-row">
     <TitleButton text="Etusivu" />
     <TitleButton text="Ilmoittaudu" />
-    <TitleButton text="Lisätietoa" />
 </div>
 
 
