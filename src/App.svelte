@@ -7,7 +7,7 @@
 
 <Router url="{url}">
   <div>
-    <Route path="register" component="{RegisterPage}" />
+    <Route path="register"><RegisterPage /></Route>
     <Route path="/"><MainPage /></Route>
   </div>
 </Router>
