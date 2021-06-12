@@ -49,6 +49,7 @@
         margin-bottom: 30px;
     }
     .text-container {
+        text-align: center;
         margin-left: 36px;
         display: flex;
     }

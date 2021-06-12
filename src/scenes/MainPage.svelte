@@ -9,7 +9,7 @@
 <BasePage>
 		<LeftContentBox
 			src="./images/kuva1-oksa.png" 
-			title="Sydämmellisesti tervetuloa hääsivustollemme!"  
+			title="Sydämellisesti tervetuloa hääsivustollemme!"  
 		>
 			<p>Tällä sivulla voi ilmoittaa tulostasi tai mahdollisesta esteestä ja lukea ajantasaista infoa häistä.</p>
 		</LeftContentBox>
@@ -47,9 +47,8 @@
 			title="Ohjelmanumeron järjestäminen" 
 			button="Lisätietoa"
 		>
-			<p class="base-info">Jos haluat pitää häissämme puheen tai olet suunnitellut jotain muuta ohjelmaa, niin ilmoitathan siitä etukäteen seremoniamestarille, jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
-			<br />
-			<p>Seremoniamestari: Henry Sanmark</p>
+			<p class="base-info">Jos haluat pitää häissämme puheen tai olet suunnitellut jotain muuta isompaa ohjelmaa, niin ilmoitathan siitä etukäteen Henrylle, jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
+			<p>Henry Sanmark</p>
 			<p>+358 503457711</p>
 			<p>henry.sanmark@iki.fi</p>
 		</LeftContentBox>
