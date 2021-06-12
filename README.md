@@ -2,6 +2,20 @@
 
 ---
 
+
+# App info:
+
+Install the dependencies...
+Node version 14 required!
+
+run: npm run dev
+build: rollup -c
+deploy: node ./gh-pages.js
+
+
+https://www.devsamples.com/javascript/svelte/deploy-svelte-app-gh-pages
+
+
 # svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
@@ -19,6 +33,7 @@ cd svelte-app
 ## Get started
 
 Install the dependencies...
+Node version 14 required!
 
 ```bash
 cd svelte-app
