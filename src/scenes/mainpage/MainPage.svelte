@@ -1,4 +1,5 @@
 <script>
+	import { Link } from "svelte-routing";
     import BasePage from '../BasePage.svelte';
 	import Title from '../../components/Title.svelte';
 	import LeftContentBox from '../../components/LeftContentBox.svelte';
@@ -18,16 +19,16 @@
 		<RightContentBox
 			src="./images/kuva9-lintu.jpg" 
 			title="Muistathan ilmoittautua 31.8.2021 mennessä" 
-			button="Ilmoittaudu tästä"
 		>
 			<p>Ilmoitathan tulostasi tai mahdollisesta esteestä- Ilmoittautumislomake sis. tiedon allergioista ja erityisruokavalioista.</p>
+			<Link to="/register" class="navigate-button">Ilmoittaudu tästä</Link>
 		</RightContentBox>
 
 		<LeftContentBox
 			src="./images/kuva10-talo.jpg" 
 			title="Päivittyvää lisätietoa" 
 			button="Lisätietoa"
-			titleStyle="margin-top:36px"
+			titleStyle="margin-top:46px"
 		>
 			<p>Lue lisätietoa, jota hääkutsusta ei löytynyt! Tällä sivulla päivittyvää tietoa kuten ohjeita parkkeeraamiseen ja ohjelmanumeron varaamiseen.</p>
 		</LeftContentBox>
@@ -35,12 +36,13 @@
 		<RightContentBox
 			src="./images/kuva3-hääpari.jpg" 
 			title="Perusinformaatio" 
-			titleStyle="margin-top:33px"
+			titleStyle="margin-top:43px"
 		>
 			<div class="base-info">
 				<p>Hääpäivä: 18.9.2021, vihkitilaisuus klo 13:30, pääjuhla 15:00 - 00:30</p>
-				<p>Vihkiminen eli kirkko: Otaniemen kappeli, Jämeräntaival 8, 02150 Espoo</p>
-				<p>Juhlatila: Thorstop, Vanha maantie 12, 02600 EspooParkkeeraus ensisijaisesti alapihalle (urheilupuisto). </p>
+				<p>Vihkiminen: Otaniemen kappeli, Jämeräntaival 8, 02150 Espoo</p>
+				<p>Juhlatila: Thorstop, Vanha maantie 12, 02600 Espoo</p>
+				<p>Parkkeeraus ensisijaisesti alapihalle (urheilupuisto) </p>
 				<p>Pukukoodi: Juhlava pukeutuminen</p>
 			</div>
 		</RightContentBox>
@@ -50,7 +52,7 @@
 			title="Ohjelmanumeron järjestäminen" 
 			titleStyle="margin-top:23px"
 		>
-			<p class="base-info">Jos haluat pitää häissämme puheen tai olet suunnitellut jotain muuta isompaa ohjelmaa, niin ilmoitathan siitä etukäteen Henrylle, jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
+			<p class="base-info">Jos olet suunnitellut jotain isompaa ohjelmaa, niin ilmoitathan siitä etukäteen Henrylle, jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
 			<p>Henry Sanmark</p>
 			<p>+358 503457711</p>
 			<p>henry.sanmark@iki.fi</p>
@@ -59,7 +61,7 @@
 		<RightContentBox
 			src="./images/kuva5-kukka.jpg" 
 			title="Muistaminen" 
-			titleStyle="margin-top:40px"
+			titleStyle="margin-top:50px"
 		>
 			<div class="base-info">
 				<p>Meille tärkeintä on, että tulette juhlimaan kanssamme tärkeää päiväämme. Halutessasi voit muistaa meitä kartuttamalla häämatkakassaamme:</p>
