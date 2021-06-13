@@ -32,7 +32,7 @@
 	{#if matches}
     
         <div class="text-area-small"> 
-            <h2 class="small-title">{$$props.title}</h2>
+            <h2 class="small-title" style="{$$props.titleStyle}">{$$props.title}</h2>
             <img src={$$props.src} alt="image" class="image-small" />
         </div>
         <div>
@@ -64,6 +64,7 @@
     }
 
     .text-area-small {
+        height: 100px;
         text-align: left;
         display: flex;
         width: 100%;

@@ -1,12 +1,13 @@
 <script>
-    import BasePage from './BasePage.svelte';
-	import Title from '../components/Title.svelte';
-	import LeftContentBox from '../components/LeftContentBox.svelte';
-	import RightContentBox from '../components/RightContentBox.svelte';
-	import BottomInfo from '../components/bottombar/BottomInfo.svelte';
+    import BasePage from '../BasePage.svelte';
+	import Title from '../../components/Title.svelte';
+	import LeftContentBox from '../../components/LeftContentBox.svelte';
+	import RightContentBox from '../../components/RightContentBox.svelte';
+	import BottomInfo from '../../components/bottombar/BottomInfo.svelte';
+	import { styles } from '../../styles.js'
 </script>
 
-<BasePage>
+<BasePage showDetails>
 		<LeftContentBox
 			src="./images/kuva1-oksa.png" 
 			title="Sydämellisesti tervetuloa hääsivustollemme!"  
@@ -26,6 +27,7 @@
 			src="./images/kuva10-talo.jpg" 
 			title="Päivittyvää lisätietoa" 
 			button="Lisätietoa"
+			titleStyle="margin-top:36px"
 		>
 			<p>Lue lisätietoa, jota hääkutsusta ei löytynyt! Tällä sivulla päivittyvää tietoa kuten ohjeita parkkeeraamiseen ja ohjelmanumeron varaamiseen.</p>
 		</LeftContentBox>
@@ -33,6 +35,7 @@
 		<RightContentBox
 			src="./images/kuva3-hääpari.jpg" 
 			title="Perusinformaatio" 
+			titleStyle="margin-top:33px"
 		>
 			<div class="base-info">
 				<p>Hääpäivä: 18.9.2021, vihkitilaisuus klo 13:30, pääjuhla 15:00 - 00:30</p>
@@ -45,7 +48,7 @@
 		<LeftContentBox
 			src="./images/kuva4-puhekupla.jpg" 
 			title="Ohjelmanumeron järjestäminen" 
-			button="Lisätietoa"
+			titleStyle="margin-top:23px"
 		>
 			<p class="base-info">Jos haluat pitää häissämme puheen tai olet suunnitellut jotain muuta isompaa ohjelmaa, niin ilmoitathan siitä etukäteen Henrylle, jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
 			<p>Henry Sanmark</p>
@@ -56,6 +59,7 @@
 		<RightContentBox
 			src="./images/kuva5-kukka.jpg" 
 			title="Muistaminen" 
+			titleStyle="margin-top:40px"
 		>
 			<div class="base-info">
 				<p>Meille tärkeintä on, että tulette juhlimaan kanssamme tärkeää päiväämme. Halutessasi voit muistaa meitä kartuttamalla häämatkakassaamme:</p>
@@ -64,3 +68,7 @@
 			</div>
 		</RightContentBox>
 </BasePage>
+<!--
+	https://svelte.dev/repl/154d60d78b8e47eab06519bd24e5eca0?version=3.23.2
+	 use:styles=({ marginTop: "100px" })
+-->

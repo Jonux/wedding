@@ -11,7 +11,7 @@
 	<div class="container">
         <slot></slot>
 	</div>
-	<BottomInfo />
+	<BottomInfo showDetails={$$props.showDetails} />
 </main>
 
 <style type="text/scss">

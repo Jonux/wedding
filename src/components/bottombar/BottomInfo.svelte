@@ -1,17 +1,20 @@
 <script>
     import LargeIcon from './LargeIcon.svelte';
     import ContactInfo from './ContactInfo.svelte';
-	export let title;
+    let showDetails;
 </script>
 
 <div class="text-container">
-    <h2 class="bottom-title">Sanomme toisillemme </h2><h2 class="styled-text">tahdon</h2>
+    <h2 class="bottom-title">Sanomme toisillemme <span class="styled-text">tahdon</span></h2>
 </div>
-<div class="menu-row">
-    <LargeIcon src="./images/kuva8-kalenteri.png" text="18. syyskuu 2021" />
-    <LargeIcon src="./images/kuva6-kello.png" text="Klo 13.30" />
-    <LargeIcon src="./images/kuva7-paikka.png" text="Otaniemen kappeli" />
-</div>
+
+{#if $$props.showDetails}
+    <div class="menu-row">
+        <LargeIcon src="./images/kuva8-kalenteri.png" text="18. syyskuu 2021" />
+        <LargeIcon src="./images/kuva6-kello.png" text="Klo 13.30" />
+        <LargeIcon src="./images/kuva7-paikka.png" text="Otaniemen kappeli" />
+    </div>
+{/if}
 
 <ContactInfo />
 
@@ -32,6 +35,7 @@
     }
     
     .bottom-title {
+        text-align: center;
         padding-right: 1em;
         font-family: 'DancingScript';
     }
@@ -51,10 +55,12 @@
     .text-container {
         text-align: center;
         margin-left: 36px;
-        display: flex;
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
     .styled-text {
-        float: left;
         font-family: 'DancingScript';
+        font-style: italic;
     }
 </style>
