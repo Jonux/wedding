@@ -1,6 +1,5 @@
 <script>
     import { Link } from "svelte-routing";
-    import TitleButton from './TitleButton.svelte';
 </script>
 
 <div class="image-container">
@@ -9,8 +8,8 @@
 
 <div class="menu-row">
   <nav>
-    <Link to="/" class="navigate-button">Etusivu</Link>
-    <Link to="register" class="navigate-button">Ilmoittaudu</Link>
+    <Link to="/"><span class="navigate-button">Etusivu</span></Link>
+    <Link to="register"><span class="navigate-button">Ilmoittaudu</span></Link>
   </nav>
 </div>
 
@@ -26,36 +25,28 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        height: 40px;
+        height: 30px;
+        padding-top: 10px;
     }
     .top-image {
         height: 300px;
         margin-bottom: 30px;
     }
 
-    .navigate-button > :global(a) {
+    :global(a) {
         text-decoration: none;
-
-        &:hover {
-            cursor: pointer;
-            color: red;
-            text-decoration: underline;
-        }
     }
 
-    :global(a) {
-        color: black;
-        width: 100px;
-        height: 40px;
-
+    .navigate-button  {
+            color: black;
         font-family: 'Candara Bold';
-        padding-top: 10px;
-        padding-bottom: 20px;
-        font-variant: all-petite-caps;
+    
+      text-decoration: none;
+      font-variant: all-petite-caps;
 
         &:hover {
             cursor: pointer;
-            color: red;
+            color: $grayTextColor;
             text-decoration: underline;
         }
     }

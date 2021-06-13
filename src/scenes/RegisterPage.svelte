@@ -3,7 +3,7 @@
 	import Title from '../components/Title.svelte';
 	import LeftContentBox from '../components/LeftContentBox.svelte';
 	import RightContentBox from '../components/RightContentBox.svelte';
-	import BottomInfo from '../components/bottombar/BottomInfo.svelte';
+	import BottomInfo from './bottombar/BottomInfo.svelte';
 </script>
 
 <BasePage>

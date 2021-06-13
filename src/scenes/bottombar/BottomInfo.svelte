@@ -1,7 +1,6 @@
 <script>
     import LargeIcon from './LargeIcon.svelte';
     import ContactInfo from './ContactInfo.svelte';
-    let showDetails;
 </script>
 
 <div class="text-container">
