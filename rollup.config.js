@@ -39,6 +39,7 @@ export default {
 	},
 	plugins: [
 		svelte({
+			hydratable: true,
 			preprocess: preprocess(),
 			compilerOptions: {
 				// enable run-time checks when not in production

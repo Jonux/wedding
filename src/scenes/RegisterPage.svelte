@@ -16,7 +16,7 @@
         <iframe 
             title=""
             src="https://docs.google.com/forms/d/e/1FAIpQLScR_MPWApjknTI46LEcxaFMlfKGg9JVVF5eGV53Fb6_PszWoQ/viewform?embedded=true" 
-            onload = "window.parent.scrollTo(0,0)" id="oc-contact" width="800" height="1260" frameborder="0" marginheight="0" marginwidth="0">Ladataan...</iframe>
+            onload = "window.parent.scrollTo(0,0)" id="oc-contact" width="800" height="1360" frameborder="0" marginheight="0" marginwidth="0">Ladataan...</iframe>
     </div>
 </BasePage>
 

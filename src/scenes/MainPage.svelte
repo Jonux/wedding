@@ -30,7 +30,7 @@
 		button="Lisätietoa"
 		titleStyle="margin-top:46px"
 	>
-		<p>Lue lisätietoa, jota hääkutsusta ei löytynyt! Tällä sivulla päivittyvää tietoa kuten ohjeita parkkeeraamiseen ja ohjelmanumeron varaamiseen.</p>
+		<p>Lue lisätietoa, jota hääkutsusta ei löytynyt! Tällä sivulla päivittyvää tietoa, kuten ohjeita parkkeeraamiseen ja ohjelmanumeron varaamiseen. Lisäksi päivitämme kesän aikana muutoin tarkempaa infoa päivän kulusta sekä mahdollisista muutoksista esimerkiksi koronatilanteen vuoksi.</p>
 	</LeftContentBox>
 
 	<RightContentBox
@@ -39,10 +39,10 @@
 		titleStyle="margin-top:43px"
 	>
 		<div class="base-info">
-			<p>Hääpäivä: 18.9.2021, vihkitilaisuus klo 13:30, pääjuhla 15:00 - 00:30</p>
+			<p>Hääpäivä: 18.9.2021, vihkitilaisuus klo 13:30 ja juhlat kestävät noin klo 00:30 saakka</p>
 			<p>Vihkiminen: Otaniemen kappeli, Jämeräntaival 8, 02150 Espoo</p>
 			<p>Juhlatila: Thorstop, Vanha maantie 12, 02600 Espoo</p>
-			<p>Parkkeeraus ensisijaisesti alapihalle (urheilupuisto) </p>
+			<p>Parkkeeraus: Pyydämme parkkeeraaman Leppävaaran urheilupuiston parkkipaikalle </p>
 			<p>Pukukoodi: Juhlava pukeutuminen</p>
 		</div>
 	</RightContentBox>

@@ -3,7 +3,7 @@
 </script>
 
 <div class="image-container">
-    <img src="./images/kuva-ekstra-kranssi-tekstillä-iso.png"  alt="title image" class="top-image" />
+    <img src="./images/kuva-kranssi.png"  alt="Joan title" class="top-image" />
 </div>
 
 <div class="menu-row">
