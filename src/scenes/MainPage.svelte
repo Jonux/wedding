@@ -52,7 +52,7 @@
 		title="Ohjelmanumeron järjestäminen" 
 		titleStyle="margin-top:23px"
 	>
-		<p class="base-info">Jos olet suunnitellut jotain isompaa ohjelmaa, niin ilmoitathan siitä etukäteen Henrylle, jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
+		<p class="base-info">Jos olet suunnitellut jotain isompaa ohjelmaa, niin ilmoitathan siitä etukäteen Bestmanille (Henry), jotta saamme mieluisesi ohjelmanumeron hääjuhlan aikatauluun.</p>
 		<p>Henry Sanmark</p>
 		<p>+358 503457711</p>
 		<p>henry.sanmark@iki.fi</p>
