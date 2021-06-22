@@ -5,7 +5,8 @@
   "scripts": {
     "build": "rollup -c && npm run copy",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear --dev -s",
+    "start": "sirv public --no-clear",
+    "start:dev": "sirv public --no-clear --dev -s",
     "copy": "cp ./CNAME ./public/build/CNAME"
   },
   "devDependencies": {
